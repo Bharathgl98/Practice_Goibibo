@@ -46,7 +46,10 @@ public class HotelPageStepDefinations {
 
 	}
 
-	
+	@Then("user should see a list of hotels in {string}")
+	public void user_should_see_a_list_of(String string) {
+
+	}
 
 
 }
