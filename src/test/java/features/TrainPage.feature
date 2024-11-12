@@ -1,5 +1,12 @@
 Feature: Train Booking
 
+Background:
+		Given I want to use the browser Firefox
+		When I login to CosmicComix
+		
+		Examples:
+		| Browser | URL |
+		| chrome	| https://www.goibibo.com/ |
 	@trainpage
 	Scenario: User searches for trains between two stations     
 
