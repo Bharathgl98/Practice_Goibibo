@@ -1,6 +1,5 @@
 package stepDefinations;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
