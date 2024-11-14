@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T14:43:36 IST" name="Surefire suite" finished-at="2024-11-12T14:44:03 IST" duration-ms="27831">
+=======
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2024-11-12T11:39:15 IST" name="Surefire suite" finished-at="2024-11-12T11:39:16 IST" duration-ms="342">
+>>>>>>> master
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNgRunner@28f2a10f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNgRunner@f736069]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
+    <test started-at="2024-11-12T14:43:36 IST" name="Surefire test" finished-at="2024-11-12T14:44:03 IST" duration-ms="27831">
+      <class name="cucumberOptions.TestNgRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNgRunner@f736069]" started-at="2024-11-12T14:43:36 IST" name="setUpClass" finished-at="2024-11-12T14:43:36 IST" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1704f67f]]>
+=======
     <test started-at="2024-11-12T11:39:15 IST" name="Surefire test" finished-at="2024-11-12T11:39:16 IST" duration-ms="342">
       <class name="cucumberOptions.TestNgRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNgRunner@28f2a10f]" started-at="2024-11-12T11:39:15 IST" name="setUpClass" finished-at="2024-11-12T11:39:16 IST" duration-ms="266" status="FAIL">
@@ -15,6 +31,7 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@10f7f7de]]>
+>>>>>>> master
               </value>
             </param>
           </params>
@@ -78,7 +95,38 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNgRunner@f736069]" started-at="2024-11-12T14:43:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-12T14:44:03 IST" duration-ms="27317" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hotel search within India"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Hotel Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "pageObjects.HotelSearchPage.getHotels()" because "this.hotelSearchPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageObjects.HotelSearchPage.getHotels()" because "this.hotelSearchPage" is null
+at stepDefinations.HotelPageStepDefinations.user_is_on_the_goibibo_hotel_search_page(HotelPageStepDefinations.java:26)
+at ✽.user is on the Goibibo hotel search page(file:///C:/Users/BHARGL/eclipse-workspace/Practice_Goibibo/src/test/java/features/HotelsPage.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNgRunner@f736069]" started-at="2024-11-12T14:44:03 IST" name="tearDownClass" finished-at="2024-11-12T14:44:03 IST" duration-ms="3" status="PASS">
+=======
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNgRunner@28f2a10f]" started-at="2024-11-12T11:39:16 IST" name="tearDownClass" finished-at="2024-11-12T11:39:16 IST" duration-ms="2" status="PASS">
+>>>>>>> master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

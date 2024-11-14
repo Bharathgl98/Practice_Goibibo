@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\pageObjects\TrainSearchPage.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\stepDefinations\Hooks.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\stepDefinations\TrainListPageStepDefinations.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\stepDefinations\Shippage.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\stepDefinations\HotelPageStepDefinations.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\pageObjects\HotelSearchPage.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\pageObjects\PageObjectManager.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\pageObjects\TrainListPage.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\utils\GenericUtils.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\utils\TestBase.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\utils\TestContextSetup.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\stepDefinations\TrainSearchPageStepDefinations.java
+C:\Users\BHARGL\eclipse-workspace\Practice_Goibibo\src\test\java\cucumberOptions\TestNgRunner.java
+=======
 C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\stepDefinations\Shippage.java
 C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\utils\TestContextSetup.java
 C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\pageObjects\TrainSearchPage.java
@@ -9,3 +24,4 @@ C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\cucumberOption
 C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\utils\GenericUtils.java
 C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\utils\TestBase.java
 C:\Users\THILAKN\eclipse-workspace\Practice_Goibibo\src\test\java\pageObjects\TrainListPage.java
+>>>>>>> master
