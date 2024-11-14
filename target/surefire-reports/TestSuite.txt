@@ -1,8 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.318 s <<< FAILURE! -- in TestSuite
 cucumberOptions.TestNgRunner.setUpClass[org.testng.TestRunner@71329995](0) -- Time elapsed: 1.067 s <<< FAILURE!
+=======
+<<<<<<< HEAD
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.68 s <<< FAILURE! -- in TestSuite
+cucumberOptions.TestNgRunner.runScenario["Hotel search within India", "Hotel Search"](1) -- Time elapsed: 27.32 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.HotelSearchPage.getHotels()" because "this.hotelSearchPage" is null
+	at stepDefinations.HotelPageStepDefinations.user_is_on_the_goibibo_hotel_search_page(HotelPageStepDefinations.java:26)
+	at ✽.user is on the Goibibo hotel search page(file:///C:/Users/BHARGL/eclipse-workspace/Practice_Goibibo/src/test/java/features/HotelsPage.feature:9)
+=======
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.296 s <<< FAILURE! -- in TestSuite
+cucumberOptions.TestNgRunner.setUpClass[org.testng.TestRunner@10f7f7de](0) -- Time elapsed: 1.037 s <<< FAILURE!
+>>>>>>> e63b82967fbd0e78f330ba6321921a755a4ac267
 io.cucumber.core.gherkin.FeatureParserException: 
 Failed to parse resource at: file:///C:/Users/THILAKN/eclipse-workspace/Practice_Goibibo/src/test/java/features/TrainPage.feature
 (6:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Examples:'
@@ -52,4 +64,5 @@ Failed to parse resource at: file:///C:/Users/THILAKN/eclipse-workspace/Practice
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+>>>>>>> master
 
