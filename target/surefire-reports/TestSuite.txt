@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.296 s <<< FAILURE! -- in TestSuite
-cucumberOptions.TestNgRunner.setUpClass[org.testng.TestRunner@10f7f7de](0) -- Time elapsed: 1.037 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.318 s <<< FAILURE! -- in TestSuite
+cucumberOptions.TestNgRunner.setUpClass[org.testng.TestRunner@71329995](0) -- Time elapsed: 1.067 s <<< FAILURE!
 io.cucumber.core.gherkin.FeatureParserException: 
 Failed to parse resource at: file:///C:/Users/THILAKN/eclipse-workspace/Practice_Goibibo/src/test/java/features/TrainPage.feature
-(7:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Examples:'
+(6:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Examples:'
 	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
 	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
 	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
