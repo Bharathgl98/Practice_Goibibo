@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.05 s -- in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.68 s <<< FAILURE! -- in TestSuite
+cucumberOptions.TestNgRunner.runScenario["Hotel search within India", "Hotel Search"](1) -- Time elapsed: 27.32 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.HotelSearchPage.getHotels()" because "this.hotelSearchPage" is null
+	at stepDefinations.HotelPageStepDefinations.user_is_on_the_goibibo_hotel_search_page(HotelPageStepDefinations.java:26)
+	at ✽.user is on the Goibibo hotel search page(file:///C:/Users/BHARGL/eclipse-workspace/Practice_Goibibo/src/test/java/features/HotelsPage.feature:9)
+

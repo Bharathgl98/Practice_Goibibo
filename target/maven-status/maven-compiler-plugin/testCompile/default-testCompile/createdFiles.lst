@@ -1,10 +1,13 @@
 pageObjects\TrainListPage.class
-stepDefinations\TrainSearchPageStepDefinations.class
-utils\TestBase.class
 utils\TestContextSetup.class
 cucumberOptions\TestNgRunner.class
 pageObjects\PageObjectManager.class
+stepDefinations\HotelPageStepDefinations.class
 pageObjects\TrainSearchPage.class
 stepDefinations\TrainListPageStepDefinations.class
 utils\GenericUtils.class
+pageObjects\HotelSearchPage.class
 stepDefinations\Hooks.class
+stepDefinations\Shippage.class
+stepDefinations\TrainSearchPageStepDefinations.class
+utils\TestBase.class
