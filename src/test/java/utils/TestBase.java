@@ -40,13 +40,8 @@ public class TestBase {
 			driver.findElement(framepopup).click();
 			driver.switchTo().defaultContent();
 			driver.findElement(adpopup).click();
+			
 		}
-		
-		
-		
-		
-		return driver;
-		
+		return driver;	
 	}
-
 }

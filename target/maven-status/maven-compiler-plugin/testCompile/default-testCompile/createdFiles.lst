@@ -1,3 +1,4 @@
+stepDefinations\Shippage.class
 pageObjects\TrainListPage.class
 utils\TestContextSetup.class
 cucumberOptions\TestNgRunner.class
